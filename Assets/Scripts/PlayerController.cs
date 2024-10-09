@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    float horizontalInput;
-    float speed = 10.0f;
+    public float horizontalInput;
+    public float xRange = 10;
+    public float speed = 10.0f;
+    public GameObject projectilePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +20,23 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * 5 * Time.deltaTime * speed * horizontalInput);
 
-        if(transform.position.x < -10)
+        // keeps the player at xRange when going left
+        if(transform.position.x < -xRange)
         {
-            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+        }
+
+        // keeps the player at xRange when going right
+        if (transform.position.x > xRange)
+        {
+            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        }
+
+        // check if the player is pressing space
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            // Lanch projectile from the player
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
