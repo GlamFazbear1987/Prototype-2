@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
+    public float verticalInput;
     public float xRange = 10;
     public float speed = 10.0f;
     public GameObject projectilePrefab;
@@ -30,6 +31,21 @@ public class PlayerController : MonoBehaviour
         if (transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        }
+
+        verticalInput = Input.GetAxis("Vertical");
+        transform.Translate(Vector3.forward * 5 * Time.deltaTime * speed * verticalInput);
+
+        // keeps the player at xRange when going down
+        if(transform.position.z < 0)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        }
+
+        // keeps the player at xRange when going up
+        if (transform.position.z > 15)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, 15);
         }
 
         // check if the player is pressing space

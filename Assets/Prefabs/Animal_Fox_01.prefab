@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412607346}
   - component: {fileID: 5100061884400857842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Skunk_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412599822}
   - component: {fileID: 5100061884400861126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Wolf_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412704694}
   - component: {fileID: 5100061884401055578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Raccoon_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412592870}
   - component: {fileID: 5100061884401017452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Raccoon_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412707948}
   - component: {fileID: 5100061884400839388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Raccoon_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412636958}
   - component: {fileID: 5100061884400836628}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Wolf_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412721144}
   - component: {fileID: 5100061884400997962}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Skunk_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,7 +591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412712014}
   - component: {fileID: 5100061884400998170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Fox_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412702480}
   - component: {fileID: 5100061884400845178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Wolf_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -757,7 +757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412623866}
   - component: {fileID: 5100061884400819770}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Skunk_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412611824}
   - component: {fileID: 5100061884400834964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Fox_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,7 +924,10 @@ GameObject:
   - component: {fileID: 5100061884412617226}
   - component: {fileID: 5100061884405218872}
   - component: {fileID: 5100061884799127604}
-  m_Layer: 0
+  - component: {fileID: 4836130632482972066}
+  - component: {fileID: 2454270417397501715}
+  - component: {fileID: -7332621557336514216}
+  m_Layer: 6
   m_Name: Animal_Fox_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,6 +992,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &4836130632482972066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5100061884412537936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c92d22b2a614f59862467dbee8f25d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2454270417397501715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5100061884412537936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7332621557336514216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5100061884412537936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8769f8db26c343deb193176ed2263a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5100061884412539696
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +1039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100061884412656700}
   - component: {fileID: 5100061884400829592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Fox_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

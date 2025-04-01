@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853297548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Spine_TopSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853195346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_FrontLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853292056}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_FrontLeg_Knee1SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,10 @@ GameObject:
   - component: {fileID: 1034941822853267950}
   - component: {fileID: 1034941822860361418}
   - component: {fileID: 1034941822566369421}
-  m_Layer: 0
+  - component: {fileID: -2969381413820896408}
+  - component: {fileID: 3156877545980297377}
+  - component: {fileID: 5362098791168025791}
+  m_Layer: 6
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,6 +168,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &-2969381413820896408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034941822852994270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c92d22b2a614f59862467dbee8f25d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3156877545980297377
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034941822852994270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5362098791168025791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034941822852994270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8769f8db26c343deb193176ed2263a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1034941822852994344
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853185984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_FrontLeg_Knee1SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853304538}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_FrontLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853217552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Tail_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853309994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Neck_TopSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853205762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Tail_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853211796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_HindLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853297378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_FrontLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853299380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Head_JawSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853315618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_HindLeg_Knee1SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853272252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_FrontLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853228358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_Eye_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -514,7 +554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853228942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_FrontLeg_Knee2SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853289566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_HindLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853272388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_ROOTSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -611,7 +651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034941822853303688}
   - component: {fileID: 1034941822856146046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SA_Animal_Horse_Brown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,7 +773,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853229218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Spine_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853313334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_FrontLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853281182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_HindLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -826,7 +866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853254384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_Eye_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853196826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_HindLeg_Knee2SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853277390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Spine_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +958,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853306210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_Clavicle_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -949,7 +989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853228952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_HindLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +1019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853189126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_FrontLeg_Knee2SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,7 +1050,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853269630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_HindLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1041,7 +1081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853284372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Neck_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853302608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_HindLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1104,7 +1144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034941822853196842}
   - component: {fileID: 1034941822856262406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SA_Animal_Horse_Grey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1226,7 +1266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853200594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Head_TopSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,7 +1299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034941822853191868}
   - component: {fileID: 1034941822856139496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SA_Animal_Horse_Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1381,7 +1421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853314334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Head_JawEndSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1411,7 +1451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853257984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_FrontLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853205282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_HindLeg_Knee1SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1473,7 +1513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034941822853204766}
   - component: {fileID: 1034941822856158458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SA_Animal_Horse_Palomino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1595,7 +1635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853259130}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Neck_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,7 +1666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853303140}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_HindLeg_Knee2SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1657,7 +1697,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853199880}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_SHJntGrp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1688,7 +1728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853200324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_HindLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1719,7 +1759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853284272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Tail_TopSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1749,7 +1789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853277626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_Neck_03SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1781,7 +1821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034941822853214288}
   - component: {fileID: 1034941822856237204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SA_Animal_Horse_Buckskin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1903,7 +1943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853228198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_r_Clavicle_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1934,7 +1974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853206982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_FrontLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1965,7 +2005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853303464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_FrontLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1995,7 +2035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034941822853209856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Horse_Rig_l_HindLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
